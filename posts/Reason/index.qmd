@@ -1,0 +1,39 @@
+---
+title: "Reason"
+author: "Yves Dusenge"
+date: "2021-12-05"
+categories: [news]
+---
+
+
+This post took a long time to get out, I believe I did not have a good grasp to explain the topic. Here we are at trying.
+
+The premise of writing this post, is my experience in observing how most people do data “science”. And most times, the process boils down to inductive or deductive processes to create stories out of data.
+
+Inductively, one has a hypothesis, then one sifts through data to finally create a story or meaning of the data to confirm or refute the hypothesis. Otherwise, deductively, one starts with a premise(for example: sales were up this month) and then they proceed to sift through data to confirm/ make sense of the story. Properly understanding both reasoning methods, can further help in identifying ways of thinking through problems.
+
+What is reasoning? The use of reason is to have some steps or ways to draw conclusions or inferences about events or phenomena.
+
+There are many reasoning processes, however for this post I will focus on inductive and deductive reasoning.
+
+Inductive and deductive reasoning are two methods of logical thinking that are used to arrive at conclusions. Inductive reasoning involves making generalizations based on limited observations, while deductive reasoning involves deriving certain conclusions from given premises. To expand further on these two concepts, let’s look at certain examples.
+
+Inductive reasoning:
+
+A person notices that their previous partners have all been dishonest or unreliable. They use inductive reasoning to conclude that they tend to attract dishonest or unreliable partners
+
+A doctor notices that a high percentage of her patients who smoke also have lung cancer. She uses inductive reasoning to conclude that smoking is a risk factor for lung cancer.
+
+A teacher observes that her students who do their homework regularly get better grades on exams. She uses inductive reasoning to conclude that doing homework can improve students’ grades.
+
+Deductive reasoning:
+
+A police officer knows that the speed limit on a certain road is 35 mph. She observes a car speeding past her at 50 mph. She uses deductive reasoning to conclude that the car is speeding.
+
+A person knows that their partner has a history of cheating on previous partners, they also know that their partner has been acting secretive and distant lately, they use deductive reasoning to conclude that their partner might be cheating on them.
+
+A consumer knows that a particular brand of cereal is on sale for $2.99 at the grocery store. She also knows that the store offers a 10% discount for customers who buy more than $20 worth of groceries. She uses deductive reasoning to conclude that she will save 10% on the cereal if she buys more than $20 worth of groceries.
+
+Both types of reasoning have strengths and weaknesses. Inductive reasoning allows us to make generalizations based on limited observations, which can be useful when making predictions or discovering new patterns. However inductive reasoning allows for the possibility of false conclusions, sometimes this can be unreliable. On the other hand, deductive reasoning allows for no uncertainty. This means if the premises are true, the conclusion must also be true. Because of this, it is less flexible and may not be applicable to real world situations where we do not know 100% all premises of an argument.
+
+Inductive and deductive reasoning in combinations can be used to arrive at some conclusions. Therefore It is important to practice using and observing both inductive and deductive reasoning in everyday situations, I believe this improves how we have conversations and try to persuade people based on the most likely method they tend to use.

@@ -1,0 +1,55 @@
+---
+title: "Learning about the world -- sampling the world?"
+author: "Yves Dusenge"
+date: "2021-02-24"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+The past few weeks have been interesting. Actually the past 10 months have in fact been very interesting. It would be hard to write about some of what I am learning without acknowledging the rise of intense mimetic behavior and eternal search for scapegoats to justify most actions, as Rene Gerard would say. 21st century is the era of the gamification of behavior and actions, and the different unintended mechanisms that arise from the design of these games.
+
+Growing up, I always liked playing games. One of the most joyful times in school was when the bell rang and it was time for recreation(odd that we use to call it that way). Games yield a mechanism that almost all kids learn the ideas of risk and reward. Because of games, most people build up some of the evolutionary competitive nature that is propelled further into living and surviving adulthood. We evolve to learn to filter events, signals or data that facilitate the right predictions and inference for the different actions we take. As the world gets more interconnected and more resources are harnessed to sustain humanity, more data are revealed to us.
+
+Human beings are the ultimate perpetual data collecting systems. Reward and risk being our mechanism of how we collect, process and make use of our data, most times we make decisions and take actions that are very suboptimal and that are detrimental to our inference of a “good” or “useful” life.
+
+In this short essay, I want to explore two ideas: independence and expected value.
+
+A query that will guide this is: Suppose you have some data, how should you use it to learn about the world?
+
+The world is filled with many uncertainties that are empirical and/or epistemological, finding ways to navigate and survive in this world requires some principles for decision making that are idiosyncratic to human intuition. Looking at the world as a set of events with probabilities that lead to certain outcomes that carry some uncertainties, it is possible to better make sense of the world and guide our behavior.
+
+Of the many topics and concepts to cover in statistics and probability, exploring the concepts of independence and expected value, can further add to our tools of decision and navigation.
+
+Independence
+
+Independence in statistics is understood to be that, if knowing a certain event A does not change the probability of event B occurring, then this means they are statistically independent.
+
+Let event A and B be subsets of a sample space, A sample space defining a set of possible outcomes, if event A does not influence B, then they are independent.
+
+A and B are independent if P ( A and B) = P (A) * P(B)
+
+Two events can be physically or logically independent, where neither one implies the other, but still be statistically dependent.
+
+The etymology of the word independence is traced back to the 15th century. Therefore one can assume that it is hard to internalize the idea of independence as a human being, because of our default baseline to look for connections and dependence everywhere. Having a mindset to evaluate events and signals first as independent, can give praxis to assess dependence and interdependence when events occur.
+
+There is much to write about the assumptions of independence as it pertains to statistics, but this short essay is to lay out the idea and build on it over time. And hopefully there is a positive expected value to a better understanding independence.
+
+Expected value
+
+According to wikipedia, expected value is defined as “…a generalization of the weighted average, and is intuitively the arithmetic mean of a large number of independent realizations of X” To easily translate this: If a person does many trials of an experiment, an expected value is a piece of information about what to expect from such an experiment in the long run i.e – over many trials.
+
+An important thing to note about expected values, is to recognize when you are dealing with negative, neutral or positive expected value events.
+
+A negative expected value is when you are expected to lose or be worse off over time/ over many trials. A neutral expected value is when you neither gain or lose over time. A positive expected value is when you are expected to be better off over time.
+
+A caveat however is to recognize that expected values happen over many trials, so it is important to recognize when you are dealing with events where values/possibilities are infrequent.
+
+For this post, I am not going to indulge in geometric expectations or utility, interesting topics for next time. Especially the usefulness of a geometric over an arithmetic expectation as it pertains to expected value and decision making under risk.
+
+In closing, the question still remains. Suppose you have some data, how should you use it to learn about the world?
+
+This is a question I am very much interested in, both intellectually and professionally, it will always come to bear in future posts. This further extends to learning more about networks and graphs, and ways insights about networks and graphs will dominate the behaviors of the 21st century.
+
+Some sources:
+
+http://www.hmu.edu/hmu-blog/2016/7/1/etymology-of-independence

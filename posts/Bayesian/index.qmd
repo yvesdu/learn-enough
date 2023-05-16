@@ -1,0 +1,28 @@
+---
+title: "Bayesian"
+author: "Yves Dusenge"
+date: "2021-08-21"
+categories: [news]
+---
+
+
+
+Some notations to keep in mind
+p(A) -> probability that A occurs
+P(A and B) -> probability that A and B occur
+P(A|B) -> probability A occurs, given B has occured
+Bayes Theorem
+P(A|B) = P(B|A)P(A) / P(B)
+
+One way to interpret bayes theorem
+H: Hypothesis D: Data
+
+Given p(H), probability of the hypothesis before the data
+Find p(H|D), probaility of the hypothesis after the data (what we "believe" about the hypothesis after we have seen the data
+In bayesian interpretation
+p(H|D):posterior probability
+p(H): prior probability
+p(D|H): conditional likelihood of the data
+p(D): total probability of the data
+
+posterior = prior * likelihood / total_prob of data

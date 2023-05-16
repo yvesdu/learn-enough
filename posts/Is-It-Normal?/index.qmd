@@ -1,0 +1,55 @@
+---
+title: "Is It Normal?"
+author: "Yves Dusenge"
+date: "2021-08-23"
+categories: [news]
+---
+
+
+Heavy Tailed Distributions In A Normal World.
+
+As we are taught to distill noise and signal from information, we are taught that the Gaussian distribution is what we should expect to see in the world around us. It is referred to, as the “Normal” distribution after all!
+
+The normal distribution has a typical value called the “mean”or “average” around which other individual values are centered around and do not deviate from by too much. However, for so many phenomena in the real world, there are order of magnitude differences between people in terms of wealth, instagram followers, etc…
+
+A few examples to further illustrate the point by using the pareto principle. Disclaimer: much of it might not be true, but it drives the point
+
+“80% of website traffic comes from 20% of content.
+
+80% of a product’s costs involve 20% of its parts.
+
+80% of news coverage is based on 20% of world events.
+
+80% of inventory comes from 20% of suppliers.
+
+80% of investment gains are produced by 20% of investments..
+
+The Inverse:
+
+20% of farmers produce 80% of the world’s agriculture.
+
+20% of your phone apps get 80% usage.
+
+20% of foods cause 80% of the weight gain.
+
+20% of words in a language accounts for 80% of usage.
+
+20% of people in your life consume 80% of your time.
+
+20% of patients use 80% of health care resources.
+
+20% of newspapers are viewed 80% of the time.
+
+20% of investment portfolios produce 80% of the gain..”
+
+When we see examples such as the ones mentioned above, there is a heavy tailed distribution underlying them instead of a gaussian distribution. That is why most times we are surprised with great deviations from normal behaviors we expect.
+
+Even though heavy-tailed distributions are still presented as surprising curiosities, there are many observations in many fields where we see phenomena of events that deviate by orders of magnitude from the mean(average) value. And having a view of the world where we should expect to see heavy-tailed distributions arising, can be a guide in the management of tail risk.
+
+As I learn to distill signals in our world filled with so much information and what measures to take, it is important to re-learn some principles, even as we are still taught a version of the central limit theorem that expects to see the gaussian distribution everywhere. Most times and the most impactful events tend not to be normally distributed.
+
+So heavy-tailed phenomena should not be considered surprising.
+
+Sources:
+
+https://www.thelangelfirm.com/debt-collection-defense-blog/2018/august/100-examples-of-the-80-20-rule/#:~:text=In%201897%2C%20Vilfredo%20Pareto%2C%20an,by%2020%25%20of%20the%20population.
