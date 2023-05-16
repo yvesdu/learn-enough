@@ -2,8 +2,7 @@
 title: "Learning about the world -- sampling the world?"
 author: "Yves Dusenge"
 date: "2021-02-24"
-categories: [news, code, analysis]
-image: "image.jpg"
+categories: [news]
 ---
 
 The past few weeks have been interesting. Actually the past 10 months have in fact been very interesting. It would be hard to write about some of what I am learning without acknowledging the rise of intense mimetic behavior and eternal search for scapegoats to justify most actions, as Rene Gerard would say. 21st century is the era of the gamification of behavior and actions, and the different unintended mechanisms that arise from the design of these games.
