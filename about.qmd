@@ -16,4 +16,4 @@ about:
 
 ---
 
-About this blog
+A place to learn and reflect.
