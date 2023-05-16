@@ -19,7 +19,7 @@ The world is filled with many uncertainties that are empirical and/or epistemolo
 
 Of the many topics and concepts to cover in statistics and probability, exploring the concepts of independence and expected value, can further add to our tools of decision and navigation.
 
-Independence
+Independence:
 
 Independence in statistics is understood to be that, if knowing a certain event A does not change the probability of event B occurring, then this means they are statistically independent.
 
@@ -33,7 +33,7 @@ The etymology of the word independence is traced back to the 15th century. There
 
 There is much to write about the assumptions of independence as it pertains to statistics, but this short essay is to lay out the idea and build on it over time. And hopefully there is a positive expected value to a better understanding independence.
 
-Expected value
+Expected value:
 
 According to wikipedia, expected value is defined as “…a generalization of the weighted average, and is intuitively the arithmetic mean of a large number of independent realizations of X” To easily translate this: If a person does many trials of an experiment, an expected value is a piece of information about what to expect from such an experiment in the long run i.e – over many trials.
 
@@ -51,4 +51,4 @@ This is a question I am very much interested in, both intellectually and profess
 
 Some sources:
 
-http://www.hmu.edu/hmu-blog/2016/7/1/etymology-of-independence
+"http://www.hmu.edu/hmu-blog/2016/7/1/etymology-of-independence"
