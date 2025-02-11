@@ -10,13 +10,10 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/yvesdu
+        href: https://github.com/yvesdu/learn-enough/
   page-footer:
     background: light
     left: "© 2025 Yv"
-  site-url: https://yvesdu.github.io/learn-enough/
-  repo-url: https://github.com/yvesdu/learn-enough
-  site-path: /learn-enough/
 
 format:
   html:
