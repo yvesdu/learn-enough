@@ -133,33 +133,36 @@ h1 {
     margin: 0 auto $spacing-md;
     display: inline-block;
     overflow: hidden;
-    width: 0;
-    max-width: 90%;
-    animation: typing 3.5s steps(40, end) forwards;
     position: relative;
+    padding: 0 $spacing-md;
     
-    @media (max-width: 768px) {
-      font-size: 2rem;
-      white-space: normal;
-      width: auto;
-      animation: fadeIn 0.8s ease-out forwards;
+    @media (min-width: 769px) {
+      // Desktop styles
+      white-space: nowrap;
+      width: 0;
+      animation: typing 3.5s steps(40, end) forwards;
       
       &::after {
-        display: none;
+        content: '';
+        position: absolute;
+        right: -3px;
+        top: 0;
+        height: 100%;
+        width: 3px;
+        background: $primary-color;
+        animation: 
+          blink 1s step-end 3,
+          disappear 0s 3.5s forwards;
       }
     }
     
-    &::after {
-      content: '';
-      position: absolute;
-      right: -3px;
-      top: 0;
-      height: 100%;
-      width: 3px;
-      background: $primary-color;
-      animation: 
-        blink 1s step-end 3,
-        disappear 0s 3.5s forwards;
+    @media (max-width: 768px) {
+      // Mobile styles
+      width: 100%;
+      white-space: normal;
+      animation: fadeIn 0.8s ease-out forwards;
+      font-size: 1.8rem;
+      line-height: 1.2;
     }
   }
   
@@ -173,6 +176,7 @@ h1 {
     @media (max-width: 768px) {
       font-size: 1rem;
       padding: 0 $spacing-md;
+      max-width: 100%;
     }
   }
 }
