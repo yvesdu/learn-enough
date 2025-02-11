@@ -133,10 +133,21 @@ h1 {
     margin: 0 auto $spacing-md;
     display: inline-block;
     overflow: hidden;
-    white-space: nowrap;
     width: 0;
+    max-width: 90%;
     animation: typing 3.5s steps(40, end) forwards;
     position: relative;
+    
+    @media (max-width: 768px) {
+      font-size: 2rem;
+      white-space: normal;
+      width: auto;
+      animation: fadeIn 0.8s ease-out forwards;
+      
+      &::after {
+        display: none;
+      }
+    }
     
     &::after {
       content: '';
@@ -159,6 +170,10 @@ h1 {
     margin: 0 auto;
     opacity: 0;
     animation: fadeIn 0.8s ease-out 3.5s forwards; // Starts after typing animation
+    @media (max-width: 768px) {
+      font-size: 1rem;
+      padding: 0 $spacing-md;
+    }
   }
 }
 

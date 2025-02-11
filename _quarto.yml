@@ -1,8 +1,14 @@
 project:
   type: website
+  output-dir: docs
+  resources:
+    - CNAME
+    - .nojekyll
 
 website:
   title: "Home"
+  site-url: https://yvesdu.github.io/learn-enough/
+  repo-url: https://github.com/yvesdu/learn-enough
   navbar:
     background: transparent
     pinned: true
