@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Home - Learning</title>
+<title>Home</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -70,9 +69,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-reading-time','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -89,11 +88,11 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -130,354 +129,249 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Learning</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(9)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+
+
+<section id="exploring-ideas-through-writing" class="level1 hero-section">
+<h1>Exploring Ideas Through Writing</h1>
+<p>Writing to understand, learning to grow, sharing to connect.</p>
+</section>
 
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news" data-listing-date-sort="1684036800000" data-listing-file-modified-sort="1684206975956" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./posts/Expectations-Vs-Reality:Navigating-The-Chasm/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
+  </div>
 </div>
-<div class="body">
-<a href="./posts/Expectations-Vs-Reality:Navigating-The-Chasm/index.html">
-<h3 class="no-anchor listing-title">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="news" data-listing-date-sort="1684036800000" data-listing-file-modified-sort="1690825986764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/Expectations-Vs-Reality:Navigating-The-Chasm/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 250px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Expectations vs Reality: Navigating the Chasm
-</h3>
-<div class="listing-subtitle">
-
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
+<div class="card-text listing-description">
+Alright, as I’m writing my first blog post of 2023, I’ve been thinking about something non-stop since the year started. I’m writing this so that in the future, say 10 years…
 </div>
-</div>
-<a href="./posts/Expectations-Vs-Reality:Navigating-The-Chasm/index.html">
-<div class="listing-description">
-As I pen my inaugural post of 2023, I find myself grappling with a recurring thought that has consumed me since the dawn of the year. I write to etch a mental timestamp, a…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Expectations-Vs-Reality:Navigating-The-Chasm/index.html">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 May 14, 2023
 </div>
-<div class="listing-author">
-Yves Dusenge
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1670216400000" data-listing-file-modified-sort="1684208874613" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./posts/Reason/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/Reason/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="1" data-categories="news" data-listing-date-sort="1670216400000" data-listing-file-modified-sort="1684208874613" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/Reason/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 250px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Reason
-</h3>
-<div class="listing-subtitle">
-
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<a href="./posts/Reason/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 This post took a long time to get out, I believe I did not have a good grasp to explain the topic. Here we are at trying.
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Reason/index.html">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Dec 5, 2022
 </div>
-<div class="listing-author">
-Yves Dusenge
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="news" data-listing-date-sort="1662350400000" data-listing-file-modified-sort="1684208592955" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/Moving-Forward-Or-Backward-In-time/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/Moving-Forward-Or-Backward-In-time/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="2" data-categories="news" data-listing-date-sort="1662350400000" data-listing-file-modified-sort="1684208592955" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./posts/Moving-Forward-Or-Backward-In-time/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 250px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Back and Forth with Time
-</h3>
-<div class="listing-subtitle">
-
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<a href="./posts/Moving-Forward-Or-Backward-In-time/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 Some reflections suited to the present provisional state of my knowledge.
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Moving-Forward-Or-Backward-In-time/index.html">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Sep 5, 2022
 </div>
-<div class="listing-author">
-Yves Dusenge
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1661227200000" data-listing-file-modified-sort="1684208607512" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/Is-It-Normal?/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/Is-It-Normal?/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="3" data-categories="news" data-listing-date-sort="1661227200000" data-listing-file-modified-sort="1690825691288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./posts/Is-it-Normal/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 250px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Is It Normal?
-</h3>
-<div class="listing-subtitle">
-
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<a href="./posts/Is-It-Normal?/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 Heavy Tailed Distributions In A Normal World.
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Is-It-Normal?/index.html">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Aug 23, 2022
 </div>
-<div class="listing-author">
-Yves Dusenge
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="news" data-listing-date-sort="1629518400000" data-listing-file-modified-sort="1684207582522" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/Bayesian/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/Bayesian/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="4" data-categories="news" data-listing-date-sort="1629518400000" data-listing-file-modified-sort="1684207582522" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/Bayesian/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 250px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Bayesian
-</h3>
-<div class="listing-subtitle">
-
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<a href="./posts/Bayesian/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 Some notations to keep in…
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Bayesian/index.html">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Aug 21, 2021
 </div>
-<div class="listing-author">
-Yves Dusenge
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="news" data-listing-date-sort="1621137600000" data-listing-file-modified-sort="1684207201062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./posts/Be-Aware-Of-Statistical-Significant-Claims/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/Be-Aware-Of-Statistical-Significant-Claims/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="5" data-categories="news" data-listing-date-sort="1621137600000" data-listing-file-modified-sort="1684207201062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/Be-Aware-Of-Statistical-Significant-Claims/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 250px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Be Aware of Statistical Significant Claims
-</h3>
-<div class="listing-subtitle">
-
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<a href="./posts/Be-Aware-Of-Statistical-Significant-Claims/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 This is a short post on a topic that has recently been malleating slowly in how I think about information, especially “scientific” or data driven results.
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Be-Aware-Of-Statistical-Significant-Claims/index.html">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 May 16, 2021
 </div>
-<div class="listing-author">
-Yves Dusenge
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="news" data-listing-date-sort="1620014400000" data-listing-file-modified-sort="1684207381943" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/Assumptions-And-Data/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/Assumptions-And-Data/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="6" data-categories="news" data-listing-date-sort="1620014400000" data-listing-file-modified-sort="1684207381943" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./posts/Assumptions-And-Data/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 250px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Assumptions and Data
-</h3>
-<div class="listing-subtitle">
-
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<a href="./posts/Assumptions-And-Data/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 As I learn more about the world. I realize most of the functions/learning are ways to figure out how data maps to our assumptions of the world.
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Assumptions-And-Data/index.html">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 May 3, 2021
 </div>
-<div class="listing-author">
-Yves Dusenge
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="news" data-listing-date-sort="1614142800000" data-listing-file-modified-sort="1684208867323" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
-<div class="thumbnail">
-<p><a href="./posts/Learning/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/Learning/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="7" data-categories="news" data-listing-date-sort="1614142800000" data-listing-file-modified-sort="1684208867323" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="./posts/Learning/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 250px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Learning About The World
-</h3>
-<div class="listing-subtitle">
-
+</h5>
+<div class="listing-reading-time card-text text-muted">
+5 min
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<a href="./posts/Learning/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 The past few weeks have been interesting. Actually the past 10 months have in fact been very interesting. It would be hard to write about some of what I am learning without…
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/Learning/index.html">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Feb 24, 2021
 </div>
-<div class="listing-author">
-Yves Dusenge
+</div>
+</div>
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="news" data-listing-date-sort="1609736400000" data-listing-file-modified-sort="1684207410298" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <p class="card-img-top"><img src="posts/welcome/thumbnail.jpg"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./posts/welcome/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="8" data-categories="news" data-listing-date-sort="1609736400000" data-listing-file-modified-sort="1684207410298" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<a href="./posts/welcome/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/welcome/thumbnail.jpg" style="height: 250px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Welcome To My Blog
-</h3>
-<div class="listing-subtitle">
-
+</h5>
+<div class="listing-reading-time card-text text-muted">
+4 min
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<a href="./posts/welcome/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 This is the first post in a Quarto blog. Welcome!
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Jan 4, 2021
 </div>
-<div class="listing-author">
-Yves Dusenge
+</div>
+</div>
 </div>
 </a>
-</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
@@ -718,7 +612,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© 2025 Yv</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -4,14 +4,30 @@ project:
 website:
   title: "Home"
   navbar:
+    background: transparent
+    pinned: true
+    shadow: false
     right:
       - about.qmd
       - icon: github
         href: https://github.com/yvesdu
+  page-footer:
+    background: light
+    left: "© 2025 Yv"
+
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      - cosmo
+      - styles.css
+    toc: false
+    code-copy: true
+    code-overflow: wrap
+    mainfont: var(--font-primary)
+    smooth-scroll: true
+    grid:
+      body-width: 1200px
+      margin-width: 200px
 
 
 

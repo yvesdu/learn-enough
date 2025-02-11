@@ -6,3 +6,14 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
+# Add reading time
+execute:
+  echo: false
+  
+format:
+  html:
+    code-fold: true
+    code-tools: false
+    code-link: true
+    toc: true
