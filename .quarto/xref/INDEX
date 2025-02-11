@@ -1,0 +1,44 @@
+{
+  "posts/post-with-code/index.qmd": {
+    "index.html": "47132ffc"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "4abcd075"
+  },
+  "index.qmd": {
+    "index.html": "f0c8ac92"
+  },
+  "about.qmd": {
+    "about.html": "665ee8cf"
+  },
+  "posts/Moving-Forward-Or-Backward-In-time/index.qmd": {
+    "index.html": "083d8459"
+  },
+  "posts/Learning-About-The-World--Sampling-The-World?/index.qmd": {
+    "index.html": "d71a5901"
+  },
+  "posts/Be-Aware-Of-Statistical-Significant-Claims/index.qmd": {
+    "index.html": "9fb4a8c7"
+  },
+  "posts/Expectations-Vs-Reality:Navigating-The-Chasm/index.qmd": {
+    "index.html": "a6e96686"
+  },
+  "posts/Is-It-Normal?/index.qmd": {
+    "index.html": "9b268b7a"
+  },
+  "posts/Bayesian/index.qmd": {
+    "index.html": "f6de161c"
+  },
+  "posts/Assumptions-And-Data/index.qmd": {
+    "index.html": "8e56374a"
+  },
+  "posts/Reason/index.qmd": {
+    "index.html": "6b182369"
+  },
+  "posts/Learning/index.qmd": {
+    "index.html": "50afffc6"
+  },
+  "posts/Is-it-Normal/index.qmd": {
+    "index.html": "9428bd30"
+  }
+}
